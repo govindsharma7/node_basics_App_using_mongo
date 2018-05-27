@@ -1,0 +1,34 @@
+{
+  "name": "my_node_app",
+  "version": "1.0.0",
+  "description": "A little test app",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.3",
+    "csurf": "^1.9.0",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "express-flash": "0.0.2",
+    "express-layout": "^0.1.0",
+    "express-session": "^1.15.6",
+    "express-validator": "^5.2.0",
+    "helmet": "^3.12.1",
+    "mongodb": "^3.1.0-beta4",
+    "multer": "^1.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.11"
+  },
+  "keywords": [
+    "all",
+    "js",
+    "practices"
+  ],
+  "author": "me",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/me_govindsharma/node_practices#readme"
+}

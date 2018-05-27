@@ -1,0 +1,14 @@
+npm install express -save
+npm init
+npm install nodemon -g
+npm install ejs -save
+npm install body-parser
+npm install express-flash -save
+npm install express-layout -save
+npm install express-session -save
+npm install express-validator -save
+npm install helmet -save
+npm install multer -save
+npm install cookie-parser -save
+npm install csurf -save
+npm install mongodb -save

@@ -1,0 +1,71 @@
+body{
+    background: #0d1521;
+    font-family: tahoma;
+    color: #989898;
+}
+
+.common {
+    width: 30%;
+    border: 1px solid gray;
+    height: 280px;
+    float: left;
+    margin: 1%;
+}
+
+.add_div {
+    height: 210px;
+    width: 100%;
+}
+
+.cnt {
+    display: flex;
+    justify-content: center;
+}
+
+.add_page {
+    padding: 2%;
+    width: 60%;
+}
+
+.common_add {
+    width: 30%;
+    border: 2px dashed gray;
+    height: 280px;
+    float: left;
+    margin: 1%;
+}
+.common_add button{
+    padding: 0;
+    width: 100%;
+    float: left;
+    background: rgba(0,0,0,.0001);
+    border: 0;
+    box-sizing: border-box;
+    color: #555;
+    cursor: pointer;
+    font-size: 45px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: arial;
+    font-size: 20px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+li:hover{
+    text-decoration: line-through;
+    background: rgba(0,0,0,0.2);
+}

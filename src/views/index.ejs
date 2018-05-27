@@ -1,0 +1,14 @@
+<div class="container">
+	<div class="common_add">
+		<a href="/addaddress"><button type="button" class="btn btn-default">Add Address</button></a>
+	</div>
+	<% data.forEach(function(item){ %>
+	<div class="common">
+		<div style="padding: 2%;">
+			<div><p><%= item.name %></p></div>
+			<div class="add_div"><p><%= item.address %></p></div>
+			<div><a href="/removedata/<%= item.mobile %>">Delete</a></div>
+		</div>
+	</div>
+	<% }); %>
+</div>
